@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: safouane95/paymybuddy-backend:latest
+          image: drsbvb/paymybuddy-backend:latest
           envFrom:
             - configMapRef:
                 name: backend-config
